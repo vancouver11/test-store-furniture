@@ -1,0 +1,20 @@
+.bread-crumbs-container{
+    text-align: center;
+    margin-top: 1rem;
+}
+.bread-crumbs-container span a{
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.bread-crumbs-container span {
+    display: inline-block;
+    margin: 0 0.6rem ;
+}
+
+.bread-crumbs-container .selected {
+    background-color: white ;
+    border-bottom: 1px solid;
+}

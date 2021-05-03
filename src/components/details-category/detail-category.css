@@ -1,0 +1,37 @@
+.container-goods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.container-detail-category{
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    font-size:1.2rem
+}
+
+.container-detail-category li{
+    margin-bottom: 0.4rem;
+}
+.container-detail-category ul{
+    margin-top: 0.4rem;
+    padding-bottom: 2rem;
+   
+}
+.container-detail-category a{
+    text-decoration: none;
+    color:black
+}
+
+.container-detail-category a:visited{
+    color:black
+}
+
+.container-detail-category a:hover{
+    color:rgb(119, 163, 168);
+    text-decoration: underline;
+}
+
+

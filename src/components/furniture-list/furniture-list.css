@@ -1,0 +1,14 @@
+.furniture-list{
+    border: 1px solid;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.selected-cat {
+    background-color: white;
+    border:1px solid rgb(106, 106, 110);
+    margin-left: 0.4rem;
+    text-align: center;
+}

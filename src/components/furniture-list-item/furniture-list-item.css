@@ -1,0 +1,15 @@
+.furniture-list-item {
+    flex-grow:1;
+    min-width: 120px;
+    border: 1px solid grey;
+    box-shadow: 1px 0 10px  rgba(0,0,0,0.5);
+    border-radius: 0.4rem;
+    text-align:center;
+    padding: 1rem 1.4rem;
+    margin: 0.8em;
+    background-color: aliceblue; 
+    font-size:1rem;  
+}
+.furniture-list-item a span{
+    font-weight: bold;
+}

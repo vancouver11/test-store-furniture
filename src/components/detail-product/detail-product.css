@@ -1,0 +1,111 @@
+.details-product{
+    border: 0px solid;
+    width: 60%;
+    max-height: 660px; 
+    margin:1.4rem auto;
+    background-color: white;
+    border:1px solid #d6c9c9;
+    overflow: auto;
+}
+.contain-details-product{
+    float: left;
+    border:0px solid;
+    width: 57%;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+.details-product img {
+    /* height: 400px; */
+
+    width: 100%;
+    max-height: 500px; 
+    border: 0px solid;
+   
+}
+
+.details-product .title-product{
+    padding: 1rem 0 0.2rem 0;
+   text-align: center;
+    font-size: 1.4rem;
+
+    box-sizing: border-box
+}
+.details-product .details-product-price {
+    border:0px solid;
+    float:left;
+    width: 100%;
+    padding: 0 0.6rem 1rem 1.4rem;
+    box-sizing: border-box
+
+}
+.details-product .details-product-availible{
+    border:0px solid;
+    float:left;
+    width: 100%;
+    padding: 0 0.6rem 1rem 1.4rem;
+    box-sizing: border-box
+}
+
+.details-product-text {
+    border:0px solid;
+    float:left;
+    width: 100%;
+    padding: 0 0.6rem 1rem 1.4rem;
+    box-sizing: border-box
+    
+}
+
+.details-product-text h2 {
+    font-size: 1.2rem;
+    margin: 0.1rem 0;
+    text-decoration: underline;
+}
+
+.more-details-product{
+    float:left;
+  /*   background: royalblue; */
+    width: 43%;
+    min-width: 200px;
+    padding-top: 2rem;
+    box-sizing: border-box;
+    border-left:1px solid #d6c9c9;
+    min-height: 520px;
+}
+
+.details-product-button{
+    border:0px solid;
+    float:left;
+    width: 100%;
+    padding: 0 0.6rem 1rem 1.4rem;
+    box-sizing: border-box
+}
+
+.details-product-button button{
+    font-size: 1rem;
+    background: rgb(127, 133, 167);
+    padding: 0.2rem 0.6rem;
+    border:1px solid;
+    cursor: pointer;
+     
+}
+
+.details-product-reviews{
+    border: 0px solid;
+    text-align: left;
+    font-size: 1.1rem;
+    position: relative;
+    
+}
+.details-product-reviews .reviews-button {
+    margin-top: 2rem;
+    
+}
+
+.details-product-reviews .reviews-button span {
+    cursor: pointer;
+}
+
+.details-product-reviews .reviews-button span:hover {
+    color:grey
+}
